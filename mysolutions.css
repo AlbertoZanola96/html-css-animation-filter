@@ -92,7 +92,7 @@
 /* escercizio 10 */
 
 .ex-10-icon {
-    animation: rotazione-antioraria 1s;
+    animation: rotazione-antioraria 0.8s;
     animation-iteration-count: infinite;
 }
 
@@ -100,14 +100,17 @@
     0% {
         transform: rotate(0deg);
     }
-    25% {
-        transform: rotate(-90deg);
+    20% {
+        transform: rotate(-72deg);
     }
-    75% {
-        transform: rotate(-180deg);
+    40% {
+        transform: rotate(-144deg);
+    }
+    60% {
+        transform: rotate(-216deg);
     }
     80% {
-        transform: rotate(-270deg);
+        transform: rotate(-288deg);
     }
     100% {
         transform: rotate(-360deg);
