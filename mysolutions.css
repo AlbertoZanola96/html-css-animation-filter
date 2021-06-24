@@ -57,3 +57,22 @@
 .ex-6-img:hover {
     filter: grayscale(1);
 }
+
+
+/* esercizio 7 */
+
+.ex-7-img:hover {
+    filter: sepia(0.7);
+    transition: 3s;
+}
+
+
+/* esercizio 8 */
+
+.ex-8-img:hover {
+    filter: sepia(0.7);
+    transition: 3s;
+    border-radius: 25px;
+}
+
+
