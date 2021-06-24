@@ -76,3 +76,73 @@
 }
 
 
+/* esercizio 9 */
+
+.ex-9-img {
+    transition: 3s;
+}
+
+.ex-9-img:hover {
+    filter: sepia(0.7);
+    border-radius: 25px;
+    transform: scale(1.4);
+}
+
+
+/* escercizio 10 */
+
+.ex-10-icon {
+    animation: rotazione-antioraria 1s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes rotazione-antioraria {
+    0% {
+        transform: rotate(0deg);
+    }
+    25% {
+        transform: rotate(-90deg);
+    }
+    75% {
+        transform: rotate(-180deg);
+    }
+    80% {
+        transform: rotate(-270deg);
+    }
+    100% {
+        transform: rotate(-360deg);
+    }
+}
+
+
+/* esercizio 11 */
+
+.ex-11-icon:hover {
+    animation: rotazione-oraria 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes rotazione-oraria {
+    0% {
+        transform: rotate(0deg);
+    }
+    25% {
+        transform: rotate(90deg);
+    }
+    75% {
+        transform: rotate(180deg);
+    }
+    80% {
+        transform: rotate(270deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+
+
+
+
+
+
