@@ -92,7 +92,7 @@
 /* escercizio 10 */
 
 .ex-10-icon {
-    animation: rotazione-antioraria 0.8s;
+    animation: rotazione-antioraria 0.8s linear;
     animation-iteration-count: infinite;
 }
 
@@ -121,7 +121,7 @@
 /* esercizio 11 */
 
 .ex-11-icon:hover {
-    animation: rotazione-oraria 2s;
+    animation: rotazione-oraria 2s linear;
     animation-iteration-count: infinite;
 }
 
