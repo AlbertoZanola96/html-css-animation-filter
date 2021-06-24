@@ -36,3 +36,24 @@
     transition: background-color 2s;
     background-color: #F5F5F5;
 }
+
+/* esercizio 5 */
+
+.ex-5-square {
+    transition: 2s;
+}
+
+.ex-5-square:hover {
+    transform: scale(2);
+}
+
+.ex-5-square:active {
+    transform: scale(.5);
+}
+
+
+/* esercizio 6 */
+
+.ex-6-img:hover {
+    filter: grayscale(1);
+}
