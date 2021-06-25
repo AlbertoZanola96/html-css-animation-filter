@@ -146,9 +146,9 @@
 
 /* esercizio 12 */
 .ex-12-button:hover .ex-12-top-white {
-    animation: su 3s linear;
+    animation: su-1 3s linear;
 }
-@keyframes su {
+@keyframes su-1 {
     0% {
         left: 10%;
     }
@@ -160,9 +160,9 @@
     }
 }
 .ex-12-button:hover .ex-12-bottom-white {
-    animation: giù 3s linear;
+    animation: giù-1 3s linear;
 }
-@keyframes giù {
+@keyframes giù-1 {
     0% {
         right: 10%;
     }
@@ -178,10 +178,10 @@
 /* esercizio 13 */
 
 .ex-13-button:hover .ex-13-top-white {
-    animation: su 3s linear;
+    animation: su-2 3s linear;
 }
 
-@keyframes su {
+@keyframes su-2 {
     0% {
         left: 10%;
         top: -10px;
@@ -208,9 +208,9 @@
     }
 }
 .ex-13-button:hover .ex-13-bottom-white {
-    animation: giù 3s linear;
+    animation: giù-2 3s linear;
 }
-@keyframes giu {
+@keyframes giù-2 {
     0% {
         bottom: -10px;
         right: 20%;
